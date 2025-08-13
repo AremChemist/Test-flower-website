@@ -1,0 +1,133 @@
+body {
+	background-color: PaleVioletRed;
+}
+
+header {
+	background-color: Lavender;
+}
+
+header > nav > ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	justify-content: space-around;
+}
+
+header > nav > ul > li > a {
+	color: green;
+	transition: color 0.5s;
+	transition: font-size 0.5s;
+	text-decoration: none;
+	font-size: 1.5em;
+}
+
+a:hover {
+	color: GreenYellow;
+	font-size: 2em;
+}
+
+header > section > h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: math;
+}
+
+#aboutMe {
+	background-color: Thistle;
+	text-align: center;
+}
+
+#aboutMe > h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: math;
+}
+
+#aboutMe > p {
+	text-align: center;
+	padding: 0% 8%;
+	font-family: cursive;
+}
+
+#aboutMe > .list{
+	padding: 0% 34%;
+	text-align: center;
+	font-family: cursive;
+}
+
+#aboutMe > img {
+	text-align: center;
+	transition: transform 0.5s ease;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* добавляем тень */
+}
+
+#aboutMe > img:hover {
+	transform: scale(1.2);
+}
+
+#portfolio {
+	background-color: Plum;
+}
+
+.portfolioHeading > h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: math;
+}
+
+.workCards {
+	display: flex;
+	justify-content: space-around;
+}
+
+.workCards > section > h3{
+	text-align: center;
+	font-size: 2em;
+	font-family: math;
+}
+
+.workCards > section > p {
+	text-align: center;
+	padding: 0% 1%;
+	font-family: cursive;
+}
+
+.workCards > section {
+	text-align: center;
+	transition: transform 0.5s ease;
+	box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2); /* добавляем тень */
+}
+
+.workCards > section:hover {
+	transform: scale(1.2);
+}
+
+#contacts {
+	background-color: Thistle;
+}
+
+#contacts > h2 {
+	text-align: center;
+	font-size: 2.5em;
+	font-family: math;
+}
+
+#contacts > ul {
+	text-align: center;
+	padding: 0% 40%;
+}
+
+#contacts > ul > li {
+	padding: 2%;
+	font-family: cursive;
+}
+
+footer {
+	background-color: DarkRed;
+}
+
+footer > h1 {
+	text-align: center;
+	font-size: 3em;
+	font-family: math;
+}
